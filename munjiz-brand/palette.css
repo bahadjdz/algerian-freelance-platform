@@ -1,0 +1,26 @@
+:root {
+  --mz-primary-900: #00251C;
+  --mz-primary-800: #003129;
+  --mz-primary-700: #003E2F;
+  --mz-primary-600: #005240;
+  --mz-primary-500: #006C54;
+  --mz-primary-400: #12876C;
+  --mz-primary-300: #6BBFA4;
+  --mz-primary-100: #E1F0EA;
+  --mz-grad: linear-gradient(180deg, #005240 0%, #003E2F 55%, #003129 100%);
+  --mz-accent-300: #E0A848;
+  --mz-accent-400: #D6963C;
+  --mz-accent-500: #C08028;
+  --mz-accent-600: #A86E14;
+  --mz-accent-100: #F9EDD8;
+  --mz-tile-bg: #E9F5F0;
+  --mz-tile-border: #C4DCD2;
+  --mz-dark: #0E1E1A;
+  --mz-bg: #F5F9F7;
+  --mz-text: #14302A;
+  --mz-muted: #5A6E68;
+  --mz-success: #1F9D55;
+  --mz-warning: #E0A82E;
+  --mz-danger: #D64545;
+  --mz-white: #FFFFFF;
+}

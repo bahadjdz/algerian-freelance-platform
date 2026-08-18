@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="880" height="240" viewBox="0 0 880 240">
+  <image x="720" y="60" width="120" height="120" xlink:href="munjiz-symbol.png" preserveAspectRatio="xMidYMid meet"/>
+  <text x="640" y="126" font-family="Cairo, 'IBM Plex Sans Arabic', sans-serif" font-weight="800" font-size="76" text-anchor="end" fill="#003E2F">منجز</text>
+  <text x="640" y="174" font-family="Inter, 'Helvetica Neue', sans-serif" font-weight="600" font-size="22" letter-spacing="10" text-anchor="end" fill="#006C54">MUNJIZ</text>
+</svg>

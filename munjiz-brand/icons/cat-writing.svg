@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none">
+  <defs>
+    <linearGradient id="mzbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9F5F0"/>
+      <stop offset="1" stop-color="#CFE5DB"/>
+    </linearGradient>
+    <linearGradient id="mzglyph" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#005240"/>
+      <stop offset="1" stop-color="#003129"/>
+    </linearGradient>
+    <linearGradient id="mzgold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D6963C"/>
+      <stop offset="1" stop-color="#A86E14"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="80" height="80" rx="22" fill="url(#mzbg)"/>
+  <rect x="8" y="8" width="80" height="80" rx="22" fill="none" stroke="#C4DCD2" stroke-width="1.5"/>
+  <path d="M62 24 L74 36 L46 64 L34 52 Z" fill="url(#mzglyph)"/>
+  <path d="M34 52 L46 64 L38 70 L26 58 Z" fill="url(#mzgold)"/>
+  <line x1="22" y1="76" x2="60" y2="76" stroke="url(#mzgold)" stroke-width="4" stroke-linecap="round"/>
+</svg>

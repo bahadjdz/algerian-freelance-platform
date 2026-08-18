@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>منجز MUNJIZ — هوية بصرية</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;800;900&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --p900:#00251C; --p800:#003129; --p700:#003E2F; --p600:#005240; --p500:#006C54;
+    --p400:#12876C; --p300:#6BBFA4; --p100:#E1F0EA;
+    --a300:#E0A848; --a400:#D6963C; --a500:#C08028; --a600:#A86E14; --a100:#F9EDD8;
+    --dark:#0E1E1A; --bg:#F5F9F7; --text:#14302A; --muted:#5A6E68;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family:'IBM Plex Sans Arabic', system-ui, sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 40px 24px 80px; }
+  header.hero { text-align:center; padding: 56px 0 40px; }
+  header.hero h1 { font-family:'Cairo', sans-serif; font-weight:900; font-size:44px; color:var(--p700); }
+  header.hero .tag { color:var(--muted); margin-top:8px; font-size:18px; }
+  header.hero .badge { display:inline-block; margin-top:14px; background:var(--p100); color:var(--p700); font-size:13px; font-weight:600; padding:6px 16px; border-radius:999px; }
+  section { margin-top: 56px; }
+  section h2 { font-family:'Cairo', sans-serif; font-weight:800; font-size:26px; color:var(--dark); border-right:6px solid var(--a500); padding-right:14px; margin-bottom:24px; }
+  .card { background:#fff; border-radius:20px; box-shadow:0 6px 24px rgba(0,60,45,.08); padding:28px; margin-bottom:20px; }
+  .card h3 { font-family:'Cairo', sans-serif; font-weight:700; font-size:18px; color:var(--p700); margin-bottom:14px; }
+  .card p.note { color:var(--muted); font-size:14px; margin-bottom:18px; }
+  .grid { display:grid; gap:20px; }
+  .g2 { grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); }
+  .g3 { grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); }
+  .center { display:flex; align-items:center; justify-content:center; }
+  .box { background:var(--bg); border:1px solid #DCEAE4; border-radius:14px; padding:26px; }
+  .box img { max-width:100%; height:auto; }
+  .box svg { max-width:100%; height:auto; }
+  .fig { font-size:13px; color:var(--muted); margin-top:10px; text-align:center; }
+  .swatch { border-radius:12px; height:56px; border:1px solid rgba(0,0,0,.06); }
+  .sw-label { font-size:13px; margin-top:6px; }
+  .sw-label code { background:#EDF5F1; padding:1px 6px; border-radius:6px; font-family:'Inter',monospace; }
+  .icon-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap:18px; }
+  .icon-cell { background:var(--bg); border:1px solid #DCEAE4; border-radius:16px; padding:20px 12px; text-align:center; transition:.2s; }
+  .icon-cell:hover { transform:translateY(-3px); box-shadow:0 8px 20px rgba(0,60,45,.12); }
+  .icon-cell svg { width:64px; height:64px; }
+  .icon-cell .name { font-size:13px; font-weight:600; color:var(--p700); margin-top:10px; }
+  .icon-cell .style { font-size:11px; color:var(--muted); }
+  .ui-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(70px,1fr)); gap:12px; }
+  .ui-cell { background:var(--bg); border:1px solid #DCEAE4; border-radius:12px; padding:14px 8px; text-align:center; }
+  .ui-cell svg { width:26px; height:26px; color:var(--p500); }
+  .ui-cell .name { font-size:10px; color:var(--muted); margin-top:6px; }
+  .dark-strip { background:linear-gradient(135deg,#003129,#0E1E1A); border-radius:20px; padding:34px; display:flex; align-items:center; gap:28px; flex-wrap:wrap; justify-content:center; }
+  .typo-row { display:flex; align-items:baseline; gap:18px; padding:14px 0; border-bottom:1px dashed #DCEAE4; }
+  .typo-row .sample { font-size:30px; }
+  code { font-family:'Inter',monospace; direction:ltr; display:inline-block; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div style="display:flex;justify-content:center;margin-bottom:24px;">
+      <img src="munjiz-symbol.png" alt="شعار منجز" style="width:150px;height:150px;">
+    </div>
+    <h1>منجز</h1>
+    <div class="tag">MUNJIZ — أنجز أعمالك بثقة</div>
+    <div class="badge">الشعار المعتمد رسمياً + نظام أيقونات Duotone Hybrid</div>
+  </header>
+
+  <section>
+    <h2>الشعار المعتمد</h2>
+    <div class="grid g3">
+      <div class="box center"><div style="text-align:center">
+        <img src="munjiz-logo-transparent.png" alt="الشعار على خلفية شفافة" style="width:200px;height:200px;">
+        <div class="fig">الشعار — خلفية شفافة</div>
+      </div></div>
+      <div class="box center"><div style="text-align:center">
+        <img src="munjiz-symbol.png" alt="رمز الشعار" style="width:170px;height:170px;">
+        <div class="fig">الرمز (مقصَّص)</div>
+      </div></div>
+      <div class="box center"><div style="text-align:center">
+        <svg width="240" height="80" viewBox="0 0 880 240" xmlns="http://www.w3.org/2000/svg">
+          <image x="720" y="60" width="120" height="120" href="munjiz-symbol.png" preserveAspectRatio="xMidYMid meet"/>
+          <text x="640" y="126" font-family="Cairo, sans-serif" font-weight="800" font-size="76" text-anchor="end" fill="#003E2F">منجز</text>
+          <text x="640" y="174" font-family="Inter, sans-serif" font-weight="600" font-size="22" letter-spacing="10" text-anchor="end" fill="#006C54">MUNJIZ</text>
+        </svg>
+        <div class="fig">التكوين الأفقي — ترتيب RTL</div>
+      </div></div>
+    </div>
+    <div class="grid g3">
+      <div class="box center"><div style="text-align:center">
+        <img src="munjiz-appicon.png" alt="أيقونة التطبيق" style="width:140px;height:140px;border-radius:26px;">
+        <div class="fig">أيقونة التطبيق</div>
+      </div></div>
+      <div class="box center"><div style="text-align:center">
+        <img src="munjiz-favicon.png" alt="الفافيكون" style="width:56px;height:56px;">
+        <div class="fig">الفافيكون</div>
+      </div></div>
+      <div class="box center"><div style="text-align:center;background:#0E1E1A;border-radius:14px;padding:14px;width:100%;">
+        <img src="munjiz-logo-white.png" alt="الشعار بالأبيض" style="width:190px;height:190px;">
+        <div class="fig" style="color:#9DBDB4;">النسخة البيضاء (للخلفيات الداكنة)</div>
+      </div></div>
+    </div>
+    <div class="dark-strip">
+      <img src="munjiz-logo-white.png" alt="منجز" style="width:130px;height:130px;">
+      <div style="color:#fff;font-family:'Cairo',sans-serif;font-weight:800;font-size:40px;">منجز</div>
+      <div style="color:#6BBFA4;font-family:'Inter',sans-serif;letter-spacing:8px;font-size:16px;">MUNJIZ</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>أيقونات التصنيفات — Duotone Hybrid</h2>
+    <div class="card">
+      <p class="note">هجين من أسلوبين شهيرين: <b style="color:var(--p700)">Duotone</b> (زمردي داكن أساسي + ذهبي مميز من لوحة الشعار) و<b style="color:var(--p700)">Glyph Tiles</b> (الرسم داخل بلاطة Squircle متدرجة).</p>
+      <div class="icon-grid">
+        <div class="icon-cell">
+          <svg viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="g1a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9F5F0"/><stop offset="1" stop-color="#CFE5DB"/></linearGradient><linearGradient id="g1b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#005240"/><stop offset="1" stop-color="#003129"/></linearGradient><linearGradient id="g1c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D6963C"/><stop offset="1" stop-color="#A86E14"/></linearGradient></defs>
+            <rect x="8" y="8" width="80" height="80" rx="22" fill="url(#g1a)"/><rect x="8" y="8" width="80" height="80" rx="22" fill="none" stroke="#C4DCD2" stroke-width="1.5"/>
+            <path d="M38 38 L26 48 L38 58 Z" fill="url(#g1b)"/><path d="M58 38 L70 48 L58 58 Z" fill="url(#g1b)"/><line x1="53" y1="33" x2="43" y2="63" stroke="url(#g1c)" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+          <div class="name">برمجة وتطوير</div><div class="style">زوج أقواس + شرطة ذهبية</div>
+        </div>
+        <div class="icon-cell">
+          <svg viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="g2a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9F5F0"/><stop offset="1" stop-color="#CFE5DB"/></linearGradient><linearGradient id="g2b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#005240"/><stop offset="1" stop-color="#003129"/></linearGradient><linearGradient id="g2c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D6963C"/><stop offset="1" stop-color="#A86E14"/></linearGradient></defs>
+            <rect x="8" y="8" width="80" height="80" rx="22" fill="url(#g2a)"/><rect x="8" y="8" width="80" height="80" rx="22" fill="none" stroke="#C4DCD2" stroke-width="1.5"/>
+            <path d="M48 22 L64 54 L48 72 L32 54 Z" fill="url(#g2b)"/><circle cx="48" cy="72" r="5.5" fill="url(#g2c)"/><line x1="30" y1="34" x2="22" y2="26" stroke="url(#g2c)" stroke-width="4" stroke-linecap="round"/><line x1="66" y1="34" x2="74" y2="26" stroke="url(#g2c)" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+          <div class="name">تصميم جرافيكي</div><div class="style">سن قلم + رأس ذهبي</div>
+        </div>
+        <div class="icon-cell">
+          <svg viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="g3a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9F5F0"/><stop offset="1" stop-color="#CFE5DB"/></linearGradient><linearGradient id="g3b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#005240"/><stop offset="1" stop-color="#003129"/></linearGradient><linearGradient id="g3c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D6963C"/><stop offset="1" stop-color="#A86E14"/></linearGradient></defs>
+            <rect x="8" y="8" width="80" height="80" rx="22" fill="url(#g3a)"/><rect x="8" y="8" width="80" height="80" rx="22" fill="none" stroke="#C4DCD2" stroke-width="1.5"/>
+            <path d="M62 24 L74 36 L46 64 L34 52 Z" fill="url(#g3b)"/><path d="M34 52 L46 64 L38 70 L26 58 Z" fill="url(#g3c)"/><line x1="22" y1="76" x2="60" y2="76" stroke="url(#g3c)" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+          <div class="name">كتابة وتحرير</div><div class="style">قلم + سن ذهبي + سطر</div>
+        </div>
+        <div class="icon-cell">
+          <svg viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="g4a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9F5F0"/><stop offset="1" stop-color="#CFE5DB"/></linearGradient><linearGradient id="g4b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#005240"/><stop offset="1" stop-color="#003129"/></linearGradient><linearGradient id="g4c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D6963C"/><stop offset="1" stop-color="#A86E14"/></linearGradient></defs>
+            <rect x="8" y="8" width="80" height="80" rx="22" fill="url(#g4a)"/><rect x="8" y="8" width="80" height="80" rx="22" fill="none" stroke="#C4DCD2" stroke-width="1.5"/>
+            <circle cx="48" cy="48" r="21" fill="none" stroke="url(#g4b)" stroke-width="5.5"/><ellipse cx="48" cy="48" rx="9" ry="21" fill="none" stroke="url(#g4b)" stroke-width="5.5"/><line x1="27" y1="48" x2="69" y2="48" stroke="url(#g4c)" stroke-width="5.5"/><circle cx="58" cy="48" r="3" fill="url(#g4c)"/>
+          </svg>
+          <div class="name">ترجمة</div><div class="style">كرة أرضية + خط استواء ذهبي</div>
+        </div>
+        <div class="icon-cell">
+          <svg viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="g5a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9F5F0"/><stop offset="1" stop-color="#CFE5DB"/></linearGradient><linearGradient id="g5b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#005240"/><stop offset="1" stop-color="#003129"/></linearGradient><linearGradient id="g5c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D6963C"/><stop offset="1" stop-color="#A86E14"/></linearGradient></defs>
+            <rect x="8" y="8" width="80" height="80" rx="22" fill="url(#g5a)"/><rect x="8" y="8" width="80" height="80" rx="22" fill="none" stroke="#C4DCD2" stroke-width="1.5"/>
+            <path d="M26 46 L54 36 L54 60 L26 52 Z" fill="url(#g5b)"/><rect x="19" y="50" width="8" height="12" rx="4" fill="url(#g5b)"/><path d="M61 39 A13 13 0 0 1 61 55" stroke="url(#g5c)" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M68 33 A24 24 0 0 1 68 61" stroke="url(#g5c)" stroke-width="5" fill="none" stroke-linecap="round"/>
+          </svg>
+          <div class="name">تسويق رقمي</div><div class="style">مكبّر صوت + موجات ذهبية</div>
+        </div>
+        <div class="icon-cell">
+          <svg viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="g6a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9F5F0"/><stop offset="1" stop-color="#CFE5DB"/></linearGradient><linearGradient id="g6b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#005240"/><stop offset="1" stop-color="#003129"/></linearGradient><linearGradient id="g6c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D6963C"/><stop offset="1" stop-color="#A86E14"/></linearGradient></defs>
+            <rect x="8" y="8" width="80" height="80" rx="22" fill="url(#g6a)"/><rect x="8" y="8" width="80" height="80" rx="22" fill="none" stroke="#C4DCD2" stroke-width="1.5"/>
+            <rect x="26" y="26" width="44" height="44" rx="15" fill="url(#g6b)"/><path d="M42 35 L59 48 L42 61 Z" fill="#FFFFFF"/><circle cx="63" cy="33" r="4" fill="url(#g6c)"/>
+          </svg>
+          <div class="name">صوت وفيديو</div><div class="style">زر تشغيل + نقطة ذهبية</div>
+        </div>
+        <div class="icon-cell">
+          <svg viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="g7a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9F5F0"/><stop offset="1" stop-color="#CFE5DB"/></linearGradient><linearGradient id="g7b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#005240"/><stop offset="1" stop-color="#003129"/></linearGradient><linearGradient id="g7c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D6963C"/><stop offset="1" stop-color="#A86E14"/></linearGradient></defs>
+            <rect x="8" y="8" width="80" height="80" rx="22" fill="url(#g7a)"/><rect x="8" y="8" width="80" height="80" rx="22" fill="none" stroke="#C4DCD2" stroke-width="1.5"/>
+            <rect x="24" y="40" width="48" height="28" rx="7" fill="url(#g7b)"/><path d="M40 40 V33 a8 8 0 0 1 16 0 V40" fill="none" stroke="url(#g7b)" stroke-width="6" stroke-linecap="round"/><rect x="43" y="51" width="10" height="6" rx="2" fill="url(#g7c)"/>
+          </svg>
+          <div class="name">أعمال واستشارات</div><div class="style">حقيبة + قفل ذهبي</div>
+        </div>
+        <div class="icon-cell">
+          <svg viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="g8a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9F5F0"/><stop offset="1" stop-color="#CFE5DB"/></linearGradient><linearGradient id="g8b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#005240"/><stop offset="1" stop-color="#003129"/></linearGradient><linearGradient id="g8c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D6963C"/><stop offset="1" stop-color="#A86E14"/></linearGradient></defs>
+            <rect x="8" y="8" width="80" height="80" rx="22" fill="url(#g8a)"/><rect x="8" y="8" width="80" height="80" rx="22" fill="none" stroke="#C4DCD2" stroke-width="1.5"/>
+            <line x1="33" y1="20" x2="41" y2="38" stroke="url(#g8c)" stroke-width="6" stroke-linecap="round"/><line x1="63" y1="20" x2="55" y2="38" stroke="url(#g8c)" stroke-width="6" stroke-linecap="round"/><circle cx="48" cy="52" r="18" fill="url(#g8b)"/><path transform="translate(36 40)" d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.8-6.2 3.8 1.6-7L2 9.2l7.1-.6z" fill="#FFFFFF"/>
+          </svg>
+          <div class="name">أخرى / تميّز</div><div class="style">ميدالية + نجم أبيض</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>أيقونات الواجهة (UI) — خطية 24×24</h2>
+    <div class="card">
+      <div class="ui-grid">
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg><div class="name">الرئيسية</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><div class="name">بحث</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><div class="name">مستخدم</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg><div class="name">تحقق</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="14" rx="2"/><path d="M16 12h4"/><path d="M2 10h20"/></svg><div class="name">محفظة</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><div class="name">تقييم</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg><div class="name">محادثة</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg><div class="name">إشعار</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg><div class="name">إعدادات</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg><div class="name">رجوع</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg><div class="name">إضافة</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg><div class="name">تصفية</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><div class="name">مدة</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><div class="name">تم</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg><div class="name">سهم</div></div>
+        <div class="ui-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v12"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg><div class="name">تبادل</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>لوحة الألوان — مستخرجة من الشعار</h2>
+    <div class="card">
+      <p class="note">استُخرجت الألوان مباشرة من الشعار المعتمد: أخضر زمردي داكن #003E2F وذهبي #C08028.</p>
+      <div class="grid g3">
+        <div><div class="swatch" style="background:#00251C"></div><div class="sw-label">Prim 900 <code>#00251C</code></div></div>
+        <div><div class="swatch" style="background:#003129"></div><div class="sw-label">Prim 800 <code>#003129</code></div></div>
+        <div><div class="swatch" style="background:#003E2F"></div><div class="sw-label">Prim 700 <code>#003E2F</code></div></div>
+        <div><div class="swatch" style="background:#005240"></div><div class="sw-label">Prim 600 <code>#005240</code></div></div>
+        <div><div class="swatch" style="background:#006C54"></div><div class="sw-label">Prim 500 <code>#006C54</code></div></div>
+        <div><div class="swatch" style="background:#12876C"></div><div class="sw-label">Prim 400 <code>#12876C</code></div></div>
+        <div><div class="swatch" style="background:#6BBFA4"></div><div class="sw-label">Prim 300 <code>#6BBFA4</code></div></div>
+        <div><div class="swatch" style="background:#E1F0EA"></div><div class="sw-label">Prim 100 <code>#E1F0EA</code></div></div>
+        <div><div class="swatch" style="background:#E0A848"></div><div class="sw-label">Accent 300 <code>#E0A848</code></div></div>
+        <div><div class="swatch" style="background:#C08028"></div><div class="sw-label">Accent 500 <code>#C08028</code></div></div>
+        <div><div class="swatch" style="background:#A86E14"></div><div class="sw-label">Accent 600 <code>#A86E14</code></div></div>
+        <div><div class="swatch" style="background:#F9EDD8"></div><div class="sw-label">Accent 100 <code>#F9EDD8</code></div></div>
+        <div><div class="swatch" style="background:#0E1E1A"></div><div class="sw-label">Dark <code>#0E1E1A</code></div></div>
+        <div><div class="swatch" style="background:#F5F9F7;border:1px solid #DCEAE4"></div><div class="sw-label">Bg <code>#F5F9F7</code></div></div>
+        <div><div class="swatch" style="background:#E9F5F0;border:1px solid #DCEAE4"></div><div class="sw-label">Tile Bg <code>#E9F5F0</code></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer style="text-align:center;margin-top:64px;color:var(--muted);font-size:13px">
+    منجز MUNJIZ — هوية بصرية v3.0 · الشعار المعتمد رسمياً + نظام أيقونات Duotone Hybrid
+  </footer>
+
+</div>
+</body>
+</html>

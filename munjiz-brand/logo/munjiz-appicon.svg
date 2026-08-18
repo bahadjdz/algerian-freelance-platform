@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <linearGradient id="mzBg" x1="0.12" y1="0" x2="0.88" y2="1">
+      <stop offset="0" stop-color="#16C799"/>
+      <stop offset="0.55" stop-color="#0E8C6E"/>
+      <stop offset="1" stop-color="#0A5C49"/>
+    </linearGradient>
+    <radialGradient id="mzSheen" cx="0.28" cy="0.12" r="0.8">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mzGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC46B"/>
+      <stop offset="1" stop-color="#EE9418"/>
+    </linearGradient>
+    <filter id="mzShadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="30" stdDeviation="40" flood-color="#0A3D33" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect x="72" y="64" width="880" height="880" rx="224" fill="url(#mzBg)" filter="url(#mzShadow)"/>
+  <rect x="72" y="64" width="880" height="880" rx="224" fill="url(#mzSheen)"/>
+  <rect x="88" y="80" width="848" height="848" rx="208" fill="none" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="6"/>
+  <rect x="284" y="300" width="100" height="428" rx="50" fill="#FFFFFF"/>
+  <rect x="640" y="300" width="100" height="428" rx="50" fill="#FFFFFF"/>
+  <path d="M384 728 L512 376 L640 728" stroke="#FFFFFF" stroke-width="100" stroke-linejoin="miter" stroke-linecap="round"/>
+  <polygon points="476,376 512,340 548,376 512,412" fill="url(#mzGold)"/>
+</svg>

@@ -1,0 +1,48 @@
+{
+  "brand": "منجز MUNJIZ",
+  "version": "3.0",
+  "logo_source": "شعار معتمد رسمياً (munjiz-logo-transparent.png) — مونوغرام M من شريط مطوي أخضر داكن + نجمة ذهبية رباعية + عنصر ذهبي داخلي",
+  "colors": {
+    "primary": {
+      "900": "#00251C",
+      "800": "#003129",
+      "700": "#003E2F",
+      "600": "#005240",
+      "500": "#006C54",
+      "400": "#12876C",
+      "300": "#6BBFA4",
+      "100": "#E1F0EA",
+      "gradient": ["#005240", "#003E2F", "#003129"]
+    },
+    "accent": {
+      "300": "#E0A848",
+      "400": "#D6963C",
+      "500": "#C08028",
+      "600": "#A86E14",
+      "100": "#F9EDD8"
+    },
+    "tile": {
+      "bg": "#E9F5F0",
+      "border": "#C4DCD2"
+    },
+    "dark": "#0E1E1A",
+    "bg": "#F5F9F7",
+    "text": "#14302A",
+    "muted": "#5A6E68",
+    "success": "#1F9D55",
+    "warning": "#E0A82E",
+    "danger": "#D64545",
+    "white": "#FFFFFF"
+  },
+  "typography": {
+    "display_arabic": "Cairo (700/800/900)",
+    "body_arabic": "IBM Plex Sans Arabic (400/500/600/700)",
+    "latin": "Inter (400/500/600/700)",
+    "fallback": "system-ui, Segoe UI, sans-serif"
+  },
+  "icon_system": "Duotone Hybrid (Duotone + Glyph Tiles)",
+  "logo": {
+    "tagline_arabic": "أنجز أعمالك بثقة",
+    "tagline_latin": "Get it done with confidence"
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="mzBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16C799"/>
+      <stop offset="1" stop-color="#0A5C49"/>
+    </linearGradient>
+    <linearGradient id="mzGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC46B"/>
+      <stop offset="1" stop-color="#EE9418"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="17" fill="url(#mzBg)"/>
+  <rect x="18" y="19" width="7" height="30" rx="3.5" fill="#FFFFFF"/>
+  <rect x="39" y="19" width="7" height="30" rx="3.5" fill="#FFFFFF"/>
+  <path d="M25 49 L32 23 L39 49" stroke="#FFFFFF" stroke-width="7" stroke-linejoin="miter" stroke-linecap="round"/>
+  <polygon points="30,23 32,21 34,23 32,25" fill="url(#mzGold)"/>
+</svg>
